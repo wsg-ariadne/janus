@@ -36,5 +36,9 @@ The dataset used to train this model includes photos selected from the Soe, Norb
     }
 
 ### Training
+The training can be found in `janus.ipynb` and follows Nithyashree V's Step-by-Step guide for Image Classification on Custom Datasets [here](https://www.analyticsvidhya.com/blog/2021/07/step-by-step-guide-for-image-classification-on-custom-datasets/).
 
-### Testing
+The developers used a VGG-19 model on a custom data set to classify photos of cookie banners to three categories:
+    1. `absent` indicating that the option to refuse cookies is not on the interface at all
+    2. `weighted` indicating that the option to refuse cookies is made less obvious, less visible, or more tedious to select than the option to accept it
+    3. `even` indicating that the options to accept and refuse cookies appear on the cookie banner and are equally obvious.
