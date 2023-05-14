@@ -1,5 +1,13 @@
-# janus
-⚖️ Option weight model for [ariadne](https://github.com/wsg-ariadne/ariadne).
+# Janus
+⚖️ Option weight model for [Ariadne](https://github.com/wsg-ariadne/ariadne).
+
+Janus is an image classifier based on the VGG-19 model that classifies images into the following classes:
+
+1. `absent` indicating that the option to refuse cookies is not on the interface at all
+2. `weighted` indicating that the option to refuse cookies is made less obvious, less visible, or more tedious to select than the option to accept it
+3. `even` indicating that the options to accept and refuse cookies appear on the cookie banner and are equally obvious.
+
+This classifier allows [Ariadne](https://github.com/wsg-ariadne/ariadne) to determine whether a website uses deceptive design in the form of weighted options on its cookie banner.
 
 ## Usage
 
