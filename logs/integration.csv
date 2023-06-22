@@ -1,0 +1,11 @@
+File Path,Prediction
+pages/banners/philstar.png,WEIGHTED
+pages/banners/rappler.png,EVEN
+pages/banners/manilatimes.png,EVEN
+pages/banners/gmanetwork.png,WEIGHTED
+pages/banners/newsabs-cbn.png,EVEN
+pages/banners/newstv5.png,EVEN
+pages/banners/inquirer.png,WEIGHTED
+pages/banners/ikea.png,WEIGHTED
+pages/banners/pepph.png,WEIGHTED
+pages/banners/beautymnl.png,ABSENT
